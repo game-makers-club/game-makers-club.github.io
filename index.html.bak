@@ -57,12 +57,13 @@
     <img src="move4.png" alt="Basic Move - The _DRAW function" 
          title="Basic Move - The _DRAW function"
       height="200">
-    <p>Here, the CLS function clears the screen - CLear Screen - and SPR prints
-      a sprite at X and Y, where (0,0) is the top left of the screen; bottom
-      right is (128,128) BTW (by the way), and SPR is short for SPRite.
-      PLAYER.SPRITE was set in the INIT function to be 0, so the first sprite is
-      what is put on screen. However, it would be nice to change this each
-      frame, so that our player character can walk. </p>
+    <p>Fig 5: Simple Sprite - drawing the sprite on screen</p>
+    <p>Here, the CLS function clears the screen each frame - CLS stands for CLear 
+      Screen - and SPR prints a sprite at X and Y, where (0,0) is the top left of 
+      the screen; bottom right is (127,127) BTW (by the way), and SPR is short for 
+      SPRite. PLAYER.SPRITE was set in the INIT function to be 0, so the first sprite 
+      is what is put on screen. However, it would be nice to change this each frame, 
+      so that our player character can walk. </p>
     <p>So, we should create a series of sprites that show a walk cycle, by
       cutting and pasting, and editing the image to show a basic walk animation.
       Here, sprite 0 is our "stand still" sprite, while the following six
